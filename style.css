@@ -1,2 +1,15 @@
-h1 {text-align: center;}
-body {background-color: aquamarine;}
+h1,p {text-align: center;}
+/* body {background-color: aquamarine;} */
+.title
+{
+    color: rgba(32, 103, 218, 0.822);
+    background-color: rgba(11, 146, 18, 0.239);
+    width: 80%;
+    margin: auto;
+}
+body
+{
+    background-image: url('home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
