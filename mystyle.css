@@ -1,3 +1,4 @@
+/*背景图*/
 body {
     background-image: url("./images/pchome.jpg");
     background-repeat: no-repeat;
@@ -5,27 +6,51 @@ body {
     margin: 0;
     height: 100vh;
     width: 100vw;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
 }
 @media (max-width: 768px) {
-    body {
+    body 
+    {
         background-image: url('./images/pehome.png');
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 }
-
+/*侧边栏*/
+#box0
+{
+    width: 15%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 0px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 25%;
+    left: 0%;
+}
+/*主页面*/
 #box1 {
-    width: 90%;
+    width: 70%;
     height: 85%; 
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    padding: 0px;
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    top:7.5%;
+    left: 20%;
+    font-size: 20px;
+    display:grid;
+    grid-template-rows: 7% 93%;
+    grid-template-columns: 100%;
+}
+#box1-1
+{
+    padding: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#box1-2
+{
+    padding: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
